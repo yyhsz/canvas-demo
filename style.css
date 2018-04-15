@@ -1,9 +1,12 @@
 *{
     margin: 0;
 }
+
 #canvas{
     background: rgb(156, 215, 229);
     position: relative;
+    vertical-align: top;
+    
 }
 #rubber{
     position: absolute;
