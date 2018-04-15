@@ -12,9 +12,6 @@ listenToUser()
 
 
 
-
-
-
 //函数封装
 
 function listenToUser() {
@@ -101,7 +98,7 @@ pencil.onclick = function (a) {
 }
 
 
-//画图
+//使用铅笔时画图
 function drawCircle(x, y, radius) {
     ctx.beginPath(); ctx.arc(x, y, radius, 0, Math.PI * 2); ctx.fill();
 }
@@ -117,7 +114,8 @@ function setPageSize() {
         pageSize()
     }
 }
-function pageSize() {  //设置页面大小函数
+function pageSize() {  
+    //设置页面大小函数
     var pageHeight = document.documentElement.clientHeight; var pageWidth = document.documentElement.clientWidth;
     canvas.height = pageHeight; canvas.width = pageWidth;
 }
