@@ -11,7 +11,6 @@ listenToUser()
 
 
 
-
 //函数封装
 
 function listenToUser() {
@@ -88,13 +87,19 @@ function listenToUser() {
 
 
 
-//使用橡皮擦
+
+//点击橡皮擦
 rubber.onclick = function (a) {
     pencilEnabled = false; rubberEnabled = true;
+    rubber.classList.add('active');
+    pencil.classList.remove('active');
 }
-//使用铅笔
+//点击铅笔
 pencil.onclick = function (a) {
     pencilEnabled = true; rubberEnabled = false;
+    pencil.classList.add('active');
+    rubber.classList.remove('active');
+    
 }
 
 

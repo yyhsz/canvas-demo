@@ -2,17 +2,29 @@
     margin: 0;
 }
 
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
 #canvas{
-    background: rgb(156, 215, 229);
+    background:  white;/*rgb(156, 215, 229);*/
     position: relative;
     vertical-align: top;
     
 }
-#rubber{
+
+.action{
     position: absolute;
-    top:20px;left:20px;
+    top: 5%; left: 2%;
 }
-#pencil{
-    position: absolute;
-    top:50px;left: 20px;
+.action  svg{
+    padding: 10px;
+    height: 2em;width: 2em;
+    transition: all 0.3s;
+}
+.action  svg.active{
+    fill: #5317b3;
+    transform: scale(1.3);
 }
