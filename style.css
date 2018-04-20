@@ -11,7 +11,7 @@ body{
     overflow: hidden;
  }
 #canvas{
-    background:  white;position: relative;vertical-align: top;   
+    background:  white;position: fixed;vertical-align: top;top: 0;left: 0;
 }
 .action{position: fixed;top: 5%;left: 4%;
 }
