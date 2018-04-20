@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="//at.alicdn.com/t/font_629583_09oojjkjtv12lnmi.js"></script>
-    <meta name="viewport"  user-scalable=no, content="width=device-width, initial-scale=1.0">
+    <script src="//at.alicdn.com/t/font_629583_elew1olzwac680k9.js"></script>
+    <meta name="viewport" user-scalable=no, content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
     <canvas id="canvas"></canvas>
     <div class="action">
         <svg class="icon" id="pencil">
             <use xlink:href="#icon-pencil1"></use>
         </svg>
-        <svg class="icon"  id="rubber">
+
+
+
+        <svg class="icon" id="rubber">
             <use xlink:href="#icon-eraser"></use>
         </svg>
     </div>
-    <!--<button id="rubber">rubber</button>
-    <button id="pencil">pencil</button> -->
+    <ol class="colors"> 
+        <li id="red"></li>
+        <li id="yellow"></li>
+        <li id="blue"></li>
+    </ol>
+    <ol class="sizes">
+        <li id="thin"></li>
+        <li id="thick"></li>
+        <li id="thicker"></li>
+    </ol>
+    <div id="clear">
+    <svg class="icon">
+            <use xlink:href="#icon-clear"></use>
+        </svg>
+    </div>
+    <a id="save">
+            <svg class="icon">
+                    <use xlink:href="#icon-download"></use>
+                </svg>
+    </a>
     <script src="./main.js"></script>
-    
+
 </body>
+
 </html>
