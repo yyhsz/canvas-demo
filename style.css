@@ -21,7 +21,7 @@
 }
 .action  svg{
     padding: 10px;
-    height: 2em;width: 2em;
+    height: 40px;width: 40px;
     transition: all 0.3s;
 }
 .action  svg.active{
