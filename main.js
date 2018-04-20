@@ -22,8 +22,6 @@ function listenToUser() {
         //移动端对应鼠标三个事件
         canvas.ontouchstart = function (a) {
             var x = a.touches[0].clientX; var y = a.touches[0].clientY; //cilenXY是相对于视口的坐标
-            console.log(a.touches[0].clientY)
-
             if (rubberEnabled) {
                 ctx.clearRect(x - 10, y - 10, 20, 20); usingrubber = true;
             }

@@ -1,7 +1,9 @@
 *{
     margin: 0;padding: 0;list-style: none;de
 }
-
+body{
+    font-size: 0;
+}
 .icon {
     
     vertical-align: -0.15em;
